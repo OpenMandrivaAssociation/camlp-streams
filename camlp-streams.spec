@@ -8,6 +8,7 @@ Summary: The Stream and Genlex libraries for OCaml 5.0
 URL: https://github.com/ocaml/camlp-streams
 License: LGPL-2.1
 Group: Development/Other
+BuildRequires: ocaml-compiler
 
 %description
 The Stream and Genlex modules have been part of the OCaml standard library for
