@@ -2,7 +2,7 @@
 
 Name: camlp-streams
 Version: 5.0.1
-Release: 1
+Release: 2
 Source0: https://github.com/ocaml/camlp-streams/archive/refs/tags/v%{version}.tar.gz
 Summary: The Stream and Genlex libraries for OCaml 5.0
 URL: https://github.com/ocaml/camlp-streams
