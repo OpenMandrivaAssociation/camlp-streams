@@ -2,13 +2,15 @@
 
 Name: camlp-streams
 Version: 5.0.1
-Release: 5
+Release: 6
 Source0: https://github.com/ocaml/camlp-streams/archive/refs/tags/v%{version}.tar.gz
 Summary: The Stream and Genlex libraries for OCaml 5.0
 URL: https://github.com/ocaml/camlp-streams
 License: LGPL-2.1
 Group: Development/Other
 BuildRequires: ocaml-dune
+BuildRequires: ocaml
+BuildRequires: ocaml-compiler
 BuildSystem: dune
 
 %description
@@ -30,7 +32,7 @@ They have been removed from the OCaml standard library, but will be maintained
 and distributed separately in this camlp-streams package.
 
 %prep
-%autosetup -p1
+%autosetup -n camlp-streams-%{version} -p1
 
 %files -f .ofiles
 
